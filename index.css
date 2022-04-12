@@ -1,0 +1,100 @@
+/*css reset*/
+body{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background:url('img/game-console-gfe9182a8f_1920.jpg');
+}
+.left{
+    position: absolute;
+    left: 34px;
+    top: 13px;
+    display: inline-block;
+   /* border: 2px solid salmon;*/
+
+}
+.left img{
+    width: 72px;
+    filter: invert(100%);
+    
+}
+.left div{
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+.center{
+    display: block;
+    width: 33%;
+    margin: 12px auto;
+    /*border: 2px solid rgb(0, 0, 0);*/
+
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 13px;
+    display: inline-block;
+   /* border: 2px solid navajowhite;*/
+
+}
+.navber{
+    display: inline-block;
+}
+.navber li{
+   
+    display: inline-block;
+    font-size: 20px;
+}
+.navber li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 24px;
+
+}
+.navber li a:hover,.navber li a.active{
+    text-decoration: underline;
+    color:aqua;
+
+}
+.btn{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding :6px 13px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(9, 90, 63);
+}
+.container{
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid #f7f7f7;
+    margin: 57px 456px;
+    padding: 46px 40px;
+    width: 39%;
+    border-radius: 20px;
+}
+.form-group input{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: block;
+    width: 399px;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 3px auto;
+    border-radius: 20px;
+}
+.container h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 60%;
+    margin: auto;
+    border-radius: 20px;
+}
